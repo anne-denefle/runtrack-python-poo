@@ -31,5 +31,5 @@ class Professeur(Personne): #définit la classe fille 2
 p1 = Personne()
 e1 = Eleve()
 
-print(e1.age)  # affiche 14
+print("l'age est de :", e1.age)  # affiche 14
 
