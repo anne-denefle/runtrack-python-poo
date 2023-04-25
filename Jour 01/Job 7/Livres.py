@@ -25,8 +25,7 @@ class Livres:
             self.__nbre_pages = nbre_pages
 # Créer un livre dans la base 
 mon_livre = Livres("American Psycho", "Bret Easton Ellis",0)
-mon_livre.set_nbre_pages(526.887)
+mon_livre.set_nbre_pages(526)
 #écrire la liste
 print("Premier Livre:", mon_livre.get_titre(),",", mon_livre.get_auteur(),",", 
       mon_livre.get_nbre_pages(), "pages.")
-
